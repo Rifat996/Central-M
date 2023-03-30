@@ -1,0 +1,18 @@
+body {
+  background: wheat;
+}
+.custom-card {
+position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.custom-card .btn-primary {
+    background: linear-gradient(#868F96, #596164);
+    border: none;
+  }
+  
+  .custom-card .btn-primary:hover {
+    background: linear-gradient(#707578, #596164);
+    transition: all 0.3s ease;
+  }
+ 

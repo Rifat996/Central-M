@@ -1,0 +1,59 @@
+
+  .logoimg {
+    width: 200px;
+}
+
+  .navbar .btn {
+    position: absolute;
+    margin: auto;
+  }
+  
+  /* add media query for screens smaller than 480px */
+  @media screen and (max-width: 480px) {
+    .logoimg {
+      width: 100px; /* reduce the max-height */
+    }
+  
+  }
+
+  .w-100 {
+    max-width: none !important;
+    }
+
+    .carousel {
+      border-radius: 7px;
+      border: 1px thin #333;
+      box-shadow: 1px 1px 20px #888888d6;
+    }
+    .carousel-image {
+      border-radius: 7px;
+    }
+    
+    .iconimg.shake {
+      animation: shake 0.5s;
+      font-weight: bold;
+    }
+    
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      50% { transform: translateX(5px); }
+      75% { transform: translateX(-5px); }
+      100% { transform: translateX(0); }
+      
+    }
+
+
+    .shake {
+      animation: shake 0.5s;
+    }
+    
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-3px); }
+      50% { transform: translateX(3px); }
+      75% { transform: translateX(-3px); }
+      100% { transform: translateX(0); }
+      
+    }
+    
